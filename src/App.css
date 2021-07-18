@@ -9,7 +9,7 @@ body {
 
 .logo {
   top: 1vw;
-  left: 2vw;
+  left: 3vw;
   position: absolute;
   height: 2vw;
 }
@@ -40,8 +40,8 @@ body {
 .hero-container {
   height: 100vh;
   width: 42vh;
-  padding-right: 2vw;
-  padding-left: 2vw;
+  padding-right: 3vw;
+  padding-left: 3vw;
   z-index: 100;
   position: relative;
   display: flex;
@@ -118,4 +118,64 @@ body {
   text-align: center;
 
   color: #ffffff;
+}
+
+.particle {
+  position: absolute;
+}
+
+.label-container {
+}
+
+.current-position-container {
+  padding: 1vw;
+  width: 16vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90.27deg,
+    #d1a229 3.95%,
+    rgba(237, 185, 52, 0.08) 97.77%,
+    rgba(255, 200, 60, 0) 158.31%
+  );
+}
+
+.current-position-parent {
+  position: relative;
+  left: 350px;
+  top: -200px;
+}
+
+.current-position-container-text {
+  color: var(--background-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 56px;
+}
+
+.position-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  float: right;
+  line-height: 28px;
+  color: var(--primary-color);
+}
+
+.position-duration {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1vw;
+  line-height: 28px;
+  float: right;
+  color: #ffffff;
+
+  opacity: 0.3;
 }

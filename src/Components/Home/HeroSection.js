@@ -1,8 +1,11 @@
 import React from 'react'
 import ArrowRight from '../Home/assets/ArrowRight.svg'
-export const HeroSection = () => {
-    return (
-        <div className='hero-container'>
+export const HeroSection = (props) => {
+    React.useEffect(()=>{
+        alert('I deployed this page within 3 hours. Sorry about the responsivness, I am really busy and will get to it when I can.\n \nDiscord - mayfairr#2022,\nGithub - https://github.com/mayfairr, \nEmail - zk@mayfairr.com, \nLinkedIn - Press About Me Button');
+    }, [])
+        return (
+        <div className='hero-container' data-aos={props.dataAos}>
             <div>
                 <div>
                     <span className='hero-sub-title'>HEY, I’M</span>
@@ -15,11 +18,10 @@ export const HeroSection = () => {
                 </div>
 
                 {/* Button */}
-                <div className='hero-button-container' style={{marginTop:'2vw'}} >
+                <div className='hero-button-container' style={{marginTop:'2vw'}} onMouseDown={()=>{window.location.href=('https://www.linkedin.com/in/mayfairr')}} >
                     <span className='hero-button-text'> About me</span>
                     <img src={ArrowRight}/>
                 </div>
-
             </div>
         </div>
     )

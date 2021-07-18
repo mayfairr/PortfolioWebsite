@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0333adb8.chunk.css",
+    "main.js": "/static/js/main.5b898e28.chunk.js",
+    "main.js.map": "/static/js/main.5b898e28.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.95e2a4cf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.95e2a4cf.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.6f22f69f.chunk.js": "/static/js/2.6f22f69f.chunk.js",
+    "static/js/2.6f22f69f.chunk.js.map": "/static/js/2.6f22f69f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ae9e5f60.chunk.css.map": "/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.0333adb8.chunk.css.map": "/static/css/main.0333adb8.chunk.css.map",
+    "static/js/2.6f22f69f.chunk.js.LICENSE.txt": "/static/js/2.6f22f69f.chunk.js.LICENSE.txt",
+    "static/media/ArrowRight.675cb55b.svg": "/static/media/ArrowRight.675cb55b.svg",
+    "static/media/Circles.f07b66f4.svg": "/static/media/Circles.f07b66f4.svg",
+    "static/media/Cross.3a6ce51f.svg": "/static/media/Cross.3a6ce51f.svg",
+    "static/media/Grid-Large.324a28e2.svg": "/static/media/Grid-Large.324a28e2.svg",
+    "static/media/Grid-Small.4865237e.svg": "/static/media/Grid-Small.4865237e.svg",
+    "static/media/Logo.08605f97.svg": "/static/media/Logo.08605f97.svg",
+    "static/media/Me.cf638def.png": "/static/media/Me.cf638def.png",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95e2a4cf.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.6f22f69f.chunk.js",
+    "static/css/main.0333adb8.chunk.css",
+    "static/js/main.5b898e28.chunk.js"
+  ]
+}
